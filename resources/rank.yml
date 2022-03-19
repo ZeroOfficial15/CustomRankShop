@@ -1,0 +1,29 @@
+---
+# Min 1 - Max 30
+1:
+  button: "Guest"
+  icon: "https://cdn-icons-png.flaticon.com/512/1173/1173817.png" #The image link requires an image with a frame of 128x128, 512x512, 60x60
+  cost: 100 # Use EconomyAPI
+  msg-buy:
+    successfully: "Successfully buy rank Guest"
+    fallied: "Fallied buy rank Guest"
+  command:
+    console:
+    - "setrank {player_name} Guest"
+    - "say {player_name} has successfully purchased ranks Guest"
+    player:
+    - "me I have successfully purchased ranks Guest"
+2:
+  button: "VipI"
+  icon: "https://cdn-icons-png.flaticon.com/512/4142/4142160.png" #The image link requires an image with a frame of 128x128, 512x512, 60x60
+  cost: 100 # Use EconomyAPI
+  msg-buy:
+    successfully: "Successfully buy rank VipI"
+    fallied: "Fallied buy rank VipI"
+  command:
+    console:
+    - "setrank {player_name} VipI"
+    - "say {player_name} has successfully purchased ranks VipI"
+    player:
+    - "me I have successfully purchased ranks VipI"
+...

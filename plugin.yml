@@ -1,0 +1,6 @@
+name: CustomRankShop
+main: ZeroOfficial\CustomRankShop\CustomRankShop
+api: 4.0.0
+version: 0.0.1
+author: ZeroOfficial
+description: Custom Rank Shop
